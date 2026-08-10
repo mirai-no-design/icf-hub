@@ -1,0 +1,24 @@
+{
+  "title": "ICF HUB: An open semantic infrastructure connecting persons and social opportunities via ICF",
+  "upload_type": "publication",
+  "publication_type": "technicalnote",
+  "description": "Umbrella repository of the ICF HUB project: vision, concept model (IHR-001), and the IHR process (IHR-000). ICF HUB consists of two deliberately small public layers (icf-registry and icf-exchange-spec) on top of which anyone can build applications. Drafted and published by Mirai no Design Inc. (Fukui, Japan) as a defensive publication under CC BY 4.0.",
+  "creators": [
+    {
+      "name": "Mirai no Design Inc.",
+      "affiliation": "Fukui, Japan"
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "ICF",
+    "semantic interoperability",
+    "open specification",
+    "registry",
+    "exchange protocol",
+    "defensive publication",
+    "welfare",
+    "employment support"
+  ],
+  "language": "jpn"
+}
