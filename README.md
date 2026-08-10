@@ -1,5 +1,5 @@
 # ICF HUB
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21871587.svg)](https://doi.org/10.5281/zenodo.21871587)
 *[English](README.en.md)*
 
 **ICF（国際生活機能分類）を共通言語に、人と社会機会をつなぐオープンな意味基盤**

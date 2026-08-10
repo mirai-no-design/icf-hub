@@ -1,5 +1,5 @@
 # ICF HUB
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21871587.svg)](https://doi.org/10.5281/zenodo.21871587)
 *[日本語版 / Japanese](README.md)*
 
 **An open semantic infrastructure connecting people and social opportunities, using ICF (WHO's International Classification of Functioning, Disability and Health) as a common language**
