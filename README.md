@@ -6,6 +6,15 @@
 
 ICF HUB は、単一の製品やプラットフォームではありません。誰でも接続できる公共的な意味基盤（プロトコル）であり、次の3層で構成されます。
 
+
+
+| 層 | リポジトリ | 役割 |
+|---|---|---|
+| Registry（共通の意味） | [icf-registry](../icf-registry) | ICFコード・支援コード・活動/参加/環境因子・関連語彙・各組織独自コードとの対応関係を登録・参照する小さなレジストリ。「賢い処理」はしない |
+| Exchange（共通の接続方法） | [icf-exchange-spec](../icf-exchange-spec) | ICFベースの情報を意味を壊さずやり取りするための軽量な共通プロトコル/API仕様。分析・推薦機能は持たない |
+| Applications（競争・創発領域） | 各社・各機関 | Registry と Exchange の上に、誰でも自由にサービスを構築できる |
+
+
 ```mermaid
 flowchart TB
     subgraph APP["Applications ── 競争・創発領域（各社・各機関が自由に開発）"]
@@ -22,12 +31,6 @@ flowchart TB
     end
     APP --> EX --> REG
 ```
-
-| 層 | リポジトリ | 役割 |
-|---|---|---|
-| Registry（共通の意味） | [icf-registry](../icf-registry) | ICFコード・支援コード・活動/参加/環境因子・関連語彙・各組織独自コードとの対応関係を登録・参照する小さなレジストリ。「賢い処理」はしない |
-| Exchange（共通の接続方法） | [icf-exchange-spec](../icf-exchange-spec) | ICFベースの情報を意味を壊さずやり取りするための軽量な共通プロトコル/API仕様。分析・推薦機能は持たない |
-| Applications（競争・創発領域） | 各社・各機関 | Registry と Exchange の上に、誰でも自由にサービスを構築できる |
 
 ## 設計思想：小さく、退屈に
 
